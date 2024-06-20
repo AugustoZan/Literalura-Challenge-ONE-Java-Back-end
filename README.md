@@ -133,7 +133,8 @@ El proyecto utiliza 6 archivos .java:
 				return gutendexService.getAllBooks();
 			}
 		}
-- **Libro.java**: Sus atributos son utilizados como referencias para los valores de la API. 
+- **Libro.java**: Sus atributos son utilizados como referencias para los valores de la API.
+
 		public class Libro {
 			final private int id;
 			final private String titulo;
@@ -147,7 +148,8 @@ El proyecto utiliza 6 archivos .java:
 			//...
 		}
 - **Autor.java**: Al igual que **Libro.java**, sus atributos son utilizados como referencia para **GutendexService.java**. 
-		public record Autor(String nombre, int nacimiento, int fallecimiento) {}
+
+  		public record Autor(String nombre, int nacimiento, int fallecimiento) {}
 ## Tecnología utilizada
 - Java (Lenguaje de programación dónde se trabajó el proyecto)
 - SpringBoot (Se utilizó con Maven)
